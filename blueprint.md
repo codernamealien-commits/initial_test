@@ -1,29 +1,21 @@
-
-# Lotto Number Generator
+# Blueprint - Lotto Number Generator
 
 ## Overview
-
-This project is a simple web application that generates and displays 6 unique lotto numbers between 1 and 45.
+A simple, modern web application that generates 6 unique random numbers between 1 and 45 for the lottery.
 
 ## Features
+- **Random Number Generation**: Generates 6 unique numbers (1-45).
+- **Sorted Display**: Numbers are displayed in ascending order.
+- **Visual Color Coding**: Balls are colored based on their value ranges (consistent with Korean Lotto style).
+- **Responsive UI**: Clean, mobile-friendly design with animations.
 
-*   Generates 6 unique random numbers.
-*   Displays the numbers in a visually appealing way.
-*   Allows the user to generate a new set of numbers with a button click.
+## Technical Implementation
+- **HTML5**: Semantic structure.
+- **CSS3**: Modern layouts using Flexbox, Custom Properties (variables), and Keyframe animations.
+- **JavaScript**: ES6+ logic for random number generation and DOM manipulation.
 
-## Current Task
-
-### Plan
-
-1.  **`index.html`:**
-    *   Change the title to "Lotto Number Generator".
-    *   Add a container for the generated numbers.
-    *   Add a button to generate the numbers.
-    *   Add a title for the generator.
-
-2.  **`style.css`:**
-    *   Add styles for the container, numbers, and button to make it visually appealing.
-
-3.  **`main.js`:**
-    *   Create a function to generate 6 unique random numbers between 1 and 45.
-    *   Add an event listener to the button to call the generator function and display the numbers.
+## Current Status
+- [x] Initial structure set up.
+- [x] Lotto generation logic implemented.
+- [x] Modern UI styling applied.
+- [x] GitHub synchronization complete.
