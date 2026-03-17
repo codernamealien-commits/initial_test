@@ -8,11 +8,12 @@ A simple, modern web application that generates 6 unique random numbers between 
 - **Sorted Display**: Numbers are displayed in ascending order.
 - **Visual Color Coding**: Balls are colored based on their value ranges (consistent with Korean Lotto style).
 - **Responsive UI**: Clean, mobile-friendly design with animations.
+- **Dark/Light Mode**: User-selectable themes with persistence (localStorage) and system preference detection.
 
 ## Technical Implementation
-- **HTML5**: Semantic structure.
-- **CSS3**: Modern layouts using Flexbox, Custom Properties (variables), and Keyframe animations.
-- **JavaScript**: ES6+ logic for random number generation and DOM manipulation.
+- **HTML5**: Semantic structure with theme toggle controls.
+- **CSS3**: Modern layouts, Custom Properties for theming, and Keyframe animations.
+- **JavaScript**: ES6+ logic for generation, theme switching, and data persistence.
 
 ## Current Status
 - [x] Initial structure set up.
